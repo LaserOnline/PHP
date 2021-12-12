@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="skin.css">
+    <title>Register</title>
+
+</head>
+
+<body>
+
+<form action="register_db.php" method="POST">
+
+  <div class="container">
+
+    <h1>สมัคร</h1>
+    <hr>
+ 
+    <label for="stu_username"><b>ID</b></label>
+    <input type="text" placeholder="กรุณาใส่ ID" name="stu_username" id="stu_username" required>
+
+    <label for="stu_password"><b>Password</b></label>
+    <input type="text" placeholder="กรุณาใส่ Password" name="stu_password" id="stu_password" required>
+
+    <label for="stu_password1"><b>Password</b></label>
+    <input type="text" placeholder="กรุณาใส่ Password" name="stu_password1" id="stu_password1" required>
+
+    <label for="stu_fname"><b>Name</b></label>
+    <input type="text" placeholder="กรุณาใส่ ชื่อ" name="stu_fname" id="stu_fname" required>
+
+    <label for="stu_lname"><b>Last Name</b></label>
+    <input type="text" placeholder="กรุณาใส่ นามสกุล" name="stu_lname" id="stu_lname" required>
+
+    <label for="stu_phone"><b>Phone</b></label>
+    <input type="text" placeholder="กรุณาใส่ เบอร์โทร" name="stu_phone" id="stu_phone" required>
+
+    <label for="stu_email"><b>Email</b></label>
+    <input type="text" placeholder="กรุณใส่ อีเมล" name="stu_email" id="stu_email" required>
+
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" name="'register'" class="registerbtn">Register</button>
+    
+  </div>
+
+  <div class="container signin">
+    <p>ฉันมีรหัสแล้ว? <a href="login.html">Sign in</a>.</p>
+  </div>
+
+</form>
+
+</body>
+
+</html>

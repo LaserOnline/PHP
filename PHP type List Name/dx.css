@@ -1,0 +1,19 @@
+* 
+{
+    margin: 20;
+    padding: 80;
+}
+
+body
+{
+     font-size: 95%;
+     background-color: white;
+}
+
+for, .content
+{
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
